@@ -16,25 +16,27 @@ h3 {
   line-height: 1.5em;
   font-weight:300;
   font-style: italic;
+  padding-bottom: 20px;
 }
 
 p {
-  font-size: 100%; /* 24px */
-  line-height: 100%;
+  font-size: 100%; /* 16px */
+  line-height: 150%;
   font-weight:300;
   font-style: normal;
+  padding-bottom: 20px
 }
 
 a {
   text-decoration: none;
 }
 
-a:link { color:#0000FF; } /* unvisited */
+a:link { color:#008080; } /* unvisited teal*/
 a:visited { color:#800080; } /* visited */
 a:hover { color:#FF0000; } /* mouse over */
 
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: #000000;
   float: left;
   position: fixed;
   width: 100%;
@@ -79,4 +81,16 @@ article {
 .container {
   margin: 0 auto;
   width: 50%;
+}
+
+.container figcaption {
+  font-size: .75em; /* 12px */
+  line-height: 1.0em;
+  font-weight:400;
+  font-style: normal;
+}
+
+.author {
+  font-size: 1.25em; /* 20px */
+  text-transform: uppercase;
 }
